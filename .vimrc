@@ -52,14 +52,6 @@ Plugin 'yuttie/comfortable-motion.vim'
 Plugin 'Raimondi/delimitMate'
 
 call vundle#end()
-
-call plug#begin('~/.vim/plugged')
-
-" Testing CoC
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-call plug#end()
-
 " Bundle import ENDS HERE ---------------------------------
 filetype plugin indent on " Filetype auto-detection
 syntax on " Syntax highlighting
